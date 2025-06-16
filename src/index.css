@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+button:active {
+  transform: scale(0.95);
+  transition: transform 0.1s;
+  background-color: #004a8f;
+}
+
+.book-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 8px rgba(255, 200, 0, 0.6); /* glow auriu */
+}
