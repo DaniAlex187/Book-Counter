@@ -50,3 +50,8 @@ In the existing code "function App (), I added:
 // Every time books changes, it saves the new value to localStorage
 // Thus, the data remains saved even after the user closes the browser.
 // Now your book list and counts will persist across page reloads.
+
+modify the public icon 
+I use my PNG as the favicon from the "public" folder and update the link
+
+<link rel="icon" type="image/png" href="/Colorful-book-illustration-on-transparent-background-PNG.png" />
