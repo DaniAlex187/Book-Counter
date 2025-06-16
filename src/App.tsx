@@ -141,7 +141,7 @@ const styles = {
     width: "350px",
     textAlign: "center" as const,
     color: "white",
-  },
+  } as React.CSSProperties,
   title: {
     marginBottom: "1rem",
     color: "#ff5252",
@@ -153,7 +153,7 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     letterSpacing: "1px",
-    textTransform: "uppercase",
+    textTransform: "uppercase" as const,
     lineHeight: "1.2",
     fontStyle: "italic",
     background: "linear-gradient(45deg, #ff5252, #ff4081)",
@@ -161,11 +161,11 @@ const styles = {
     WebkitTextFillColor: "transparent",
     backgroundSize: "200% 200%",
     animation: "gradient 5s ease infinite",
-  },
+  } as React.CSSProperties,
   list: {
     listStyle: "none",
     padding: 0,
-  },
+  } as React.CSSProperties,
   item: {
     display: "flex",
     justifyContent: "space-between",
@@ -174,17 +174,17 @@ const styles = {
     background: "#2e2e2e",
     padding: "0.6rem 1rem",
     borderRadius: "8px",
-  },
+  } as React.CSSProperties,
   buttons: {
     display: "flex",
     gap: "0.5rem",
-  },
+  } as React.CSSProperties,
   total: {
     marginTop: "1.2rem",
     fontWeight: "bold",
     fontSize: "1.1rem",
     color: "#00e676",
-  }
+  } as React.CSSProperties
 };
 
 export default App;
